@@ -5,7 +5,7 @@ class CreateTransactions < ActiveRecord::Migration[5.2]
       t.date :date
       t.string :type
       t.integer :user_id
-      t.ingteger :account_id
+      t.integer :account_id
       t.timestamps
     end
   end
